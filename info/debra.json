@@ -1,13 +1,13 @@
 {
 	"minVersion": "0.1",
 	"class": "DepictionTabView",
-	"tintColor": "#1345fc",
+	"tintColor": "#00A76A",
 	"headerImage": "https://sudo9000.github.io/info/debra.png",
 	"tabs": [
 		{
 			"tabname": "Details",
 			"class": "DepictionStackView",
-			"tintColor": "#1345fc",
+			"tintColor": "#00A76A",
 			"views": [
 				{
 					"class": "DepictionSubheaderView",
@@ -90,7 +90,7 @@
 		{
 			"tabname": "Changelog",
 			"class": "DepictionStackView",
-			"tintColor": "#1345fc",
+			"tintColor": "#00A76A",
 			"views": [
 				{
 					"class": "DepictionSubheaderView",

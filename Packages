@@ -16,3 +16,39 @@ Icon: https://sudo9000.github.io/info/debra.png
 Name: Debra
 Sileodepiction: https://sudo9000.github.io/info/debra.json
 
+Package: com.sudo.lightspinnyrgb
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.lightspinnyrgb_1.0_iphoneos-arm.deb
+Size: 300458
+MD5sum: 6c1eb4952e635bcc4b3e950aa7a2e584
+SHA1: d4bcbfbac1d0e285482a2d12590a660a934df6de
+SHA256: e24cc6b7c1606e2e66a1f8a1d5cc0288eac3d2033c9f33cdebdf4ef8c8073ce3
+Section: Themes
+Description: Original respring logo in color!
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/lightspinnyrgb.html
+Icon: https://sudo9000.github.io/info/lightspinnyrgb.png
+Name: lightspinnyRGB
+Sileodepiction: https://sudo9000.github.io/info/lightspinnyrgb.json
+
+Package: com.sudo.noads4yahoomail
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.noads4yahoomail_1.0_iphoneos-arm.deb
+Size: 5712
+MD5sum: 19ba586987995b26ca6c211d26b2d6f2
+SHA1: 9fef5c985d2df1db2e16df4262ce636aba5bed26
+SHA256: bf475e880f19cffc9d2d504de05979a6c0d6ec7e7caf0bafa9135946e8446200
+Section: Tweaks
+Description: Removes all Ads from Yahoo Mail app. For use with Yahoo Mail app from App Store. No options to configure.
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/noads4yahoomail.html
+Icon: https://sudo9000.github.io/info/noads4yahoomail.png
+Name: NoAds4YahooMail
+Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
+

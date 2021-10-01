@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{296, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+        "url": "https://i.imgur.com/aINYnqu.png",
+        "title": "Debra",
+        "package": "com.sudo.debra",
+        "hideShadow": false
+    }
+  ]
+}

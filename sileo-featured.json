@@ -8,6 +8,18 @@
         "title": "Debra",
         "package": "com.sudo.debra",
         "hideShadow": false
+    },
+		{
+        "url": "https://i.imgur.com/pdBXVrl.png",
+        "title": "lightspinnyRGB",
+        "package": "com.sudo.lightspinnyrgb",
+        "hideShadow": false
+    },
+		{
+        "url": "https://i.imgur.com/76sZPWn.png",
+        "title": "NoAds4YahooMail",
+        "package": "com.sudo.noads4yahoomail",
+        "hideShadow": false
     }
   ]
 }

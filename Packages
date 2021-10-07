@@ -1,13 +1,13 @@
 Package: com.sudo.debra
-Version: 1.7
+Version: 1.8
 Architecture: iphoneos-arm
 Maintainer: Sudo <sudo9000@outlook.com>
 Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
-Filename: debs/com.sudo.debra_1.7_iphoneos-arm.deb
-Size: 4242
-MD5sum: 49a0418619f03b6bfafd69f3d92e2a28
-SHA1: 99c04efa260e17c8f90224630cb35576b9ee6696
-SHA256: 74b5acd099e3d019e9cb6f3f7f12ca0c038f3f6ba611454bcb2f0846bc6b2478
+Filename: debs/com.sudo.debra_1.8_iphoneos-arm.deb
+Size: 4256
+MD5sum: ed612ad4cad5d0a40a7aace5ec4967d5
+SHA1: bf5f143d654208c18f4aac88cef7eb42de769645
+SHA256: b78828b31799b8f8197463312826c7a9439a4391620f7c8b282e45473c7ede2a
 Section: Utilities
 Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
 Author: Sudo & Paisseon

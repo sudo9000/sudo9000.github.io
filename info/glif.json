@@ -1,0 +1,98 @@
+{
+	"minVersion": "0.1",
+	"class": "DepictionTabView",
+	"tintColor": "#00A76A",
+	"headerImage": "https://sudo9000.github.io/info/glif.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"title": "Description"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Glyph style theme utilizing vibrant color range",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Features"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>2,500+ Glyph Icons</li>\n<li>Settings Icons</li>\n<li>Respring Animation</li>\n<li>Custom Clock Icon</li>\n<li>AE Shadow and Icon BG</li>\n<li>Plus More!</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "Information"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Developers",
+					"text": "Sudo"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Version",
+					"text": "1.0"
+				},
+				{
+					"class": "DepictionTableTextView",
+					"title": "Price",
+					"text": "Free"
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				},
+				{
+					"class": "DepictionStackView",
+					"views": [
+						{
+							"class": "DepictionTableButtonView",
+							"title": "CyPwn's Discord",
+							"action": "https://discord.com/invite/cZ2gBRZvwW",
+							"openExternal": false
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 16
+				}
+			]
+		},
+		{
+			"tabname": "Changelog",
+			"class": "DepictionStackView",
+			"tintColor": "#00A76A",
+			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Initial release</li></ul>",
+					"useRawFormat": true
+				}
+			]
+		}
+	]
+}

@@ -10,6 +10,13 @@
         "hideShadow": false
     },
 		{
+				"url": "https://i.imgur.com/5gyRB8r.png",
+				"title": "Glif",
+				"package": "com.sudo.glif",
+				"hideShadow": false
+		},
+
+		{
         "url": "https://i.imgur.com/pdBXVrl.png",
         "title": "lightspinnyRGB",
         "package": "com.sudo.lightspinnyrgb",

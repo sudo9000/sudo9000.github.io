@@ -17,15 +17,15 @@ Name: Debra
 Sileodepiction: https://sudo9000.github.io/info/debra.json
 
 Package: com.sudo.glif
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Sudo <sudo9000@outlook.com>
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
-Filename: debs/com.sudo.glif_1.0_iphoneos-arm.deb
-Size: 12935270
-MD5sum: cad71621d036c050de877ef792a63c56
-SHA1: 842dd28232dfade846074dd64a546bcd543066e9
-SHA256: 364a9722f16685a1ee900b226aeb2131edcdc69f7865459f80be9d2658a45912
+Filename: debs/com.sudo.glif_1.0.1_iphoneos-arm.deb
+Size: 13276250
+MD5sum: 448666576e32acdb3f27e01b174caaf0
+SHA1: 469c16c916479daff289828f705589d30987514f
+SHA256: 6b3c38df7b0711a78ccc10326059460d1ddf5c915bf9b66d6adcb1a63c8e99c9
 Section: Themes
 Description: Glyph style theme utilizing vibrant color range
 Author: Sudo <sudo9000@outlook.com>

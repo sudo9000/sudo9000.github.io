@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "1.0"
+					"text": "1.0.1"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.0.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added more icons</li>\n<li>Added light and dark icon BG options</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

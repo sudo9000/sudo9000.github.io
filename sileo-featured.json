@@ -1,32 +1,31 @@
 {
-  "class": "FeaturedBannersView",
-  "itemSize": "{296, 148}",
-  "itemCornerRadius": 10,
-  "banners": [
+  "class":"FeaturedBannersView",
+  "itemSize":"{296, 148}",
+  "itemCornerRadius":10,
+  "banners":[
     {
-        "url": "https://i.imgur.com/aINYnqu.png",
-        "title": "Debra",
-        "package": "com.sudo.debra",
-        "hideShadow": false
+      "url":"https://i.imgur.com/aINYnqu.png",
+      "title":"Debra",
+      "package":"com.sudo.debra",
+      "hideShadow":false
     },
-		{
-				"url": "https://i.imgur.com/MFMPY0m.png",
-				"title": "Glif",
-				"package": "com.sudo.glif",
-				"hideShadow": false
-		},
-
-		{
-        "url": "https://i.imgur.com/pdBXVrl.png",
-        "title": "lightspinnyRGB",
-        "package": "com.sudo.lightspinnyrgb",
-        "hideShadow": false
+    {
+      "url":"https://i.imgur.com/MFMPY0m.png",
+      "title":"Glif",
+      "package":"com.sudo.glif",
+      "hideShadow":false
     },
-		{
-        "url": "https://i.imgur.com/76sZPWn.png",
-        "title": "NoAds4YahooMail",
-        "package": "com.sudo.noads4yahoomail",
-        "hideShadow": false
+    {
+      "url":"https://i.imgur.com/pdBXVrl.png",
+      "title":"lightspinnyRGB",
+      "package":"com.sudo.lightspinnyrgb",
+      "hideShadow":false
+    },
+    {
+      "url":"https://i.imgur.com/76sZPWn.png",
+      "title":"NoAds4YahooMail",
+      "package":"com.sudo.noads4yahoomail",
+      "hideShadow":false
     }
   ]
 }

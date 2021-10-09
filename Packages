@@ -52,6 +52,22 @@ Icon: https://sudo9000.github.io/info/lightspinnyrgb.png
 Name: lightspinnyRGB
 Sileodepiction: https://sudo9000.github.io/info/lightspinnyrgb.json
 
+Package: com.sudo.makecydiabuyagain
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.makecydiabuyagain_1.0.3_iphoneos-arm.deb
+Size: 30842
+MD5sum: 6eba07f5ff4429ce9ed0a01199762f88
+SHA1: d73624ce1be3cb2def733b1234945e1c2686df08
+SHA256: 481f9ed83272e285fccaa95bbd1e306364a76f76f9d5be8a956e3385714ef551
+Section: Tweaks
+Description: Enable Cydia to purchase any package on any version of iOS and device that is "not supported"
+Author: Sudo
+Depiction: makecydiabuyagain
+Name: MakeCydiaBuyAgain
+
 Package: com.sudo.noads4yahoomail
 Version: 1.0
 Architecture: iphoneos-arm

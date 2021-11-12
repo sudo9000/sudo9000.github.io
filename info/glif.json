@@ -2,7 +2,7 @@
 	"minVersion": "0.1",
 	"class": "DepictionTabView",
 	"tintColor": "#00A76A",
-	"headerImage": "https://sudo9000.github.io/info/glif.png",
+	"headerImage": "https://sudo9000.github.io/info/glificon.png",
 	"tabs": [
 		{
 			"tabname": "Details",
@@ -17,7 +17,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "Glyph style theme utilizing vibrant color range",
+					"markdown": "Glyph style themes. Mix and Match 4 Icon Sets. Choose 1 or use all 4 together. Arrange the priority order of Icon sets 1, 2, 3, and 4 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 4 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.",
 					"useRawFormat": true
 				},
 				{
@@ -28,7 +28,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "<ul>\n<li>2,500+ Glyph Icons</li>\n<li>Settings Icons</li>\n<li>Respring Animation</li>\n<li>Custom Clock Icon</li>\n<li>AE Shadow and Icon BG</li>\n<li>Plus More!</li></ul>",
+					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>4 icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animation</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
 					"useRawFormat": true
 				},
 				{
@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "1.0.1"
+					"text": "2.0"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added 4 separate icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\n<li>Added more Icon BG colors</li>\n<li>Added Boot Logo</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

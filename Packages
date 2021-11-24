@@ -52,6 +52,24 @@ Icon: https://sudo9000.github.io/info/glificon.png
 Name: Glif
 Sileodepiction: https://sudo9000.github.io/info/glif.json
 
+Package: com.sudo.glif
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
+Filename: debs/com.sudo.glif_2.1_iphoneos-arm.deb
+Size: 42493036
+MD5sum: 2dc89997e7f092004ba4b5f51a2b35b3
+SHA1: 9c5f1d34ccc19fd182e63503d9da028788ffd029
+SHA256: 07e63615bce1320147b0ad0a0b5c5a37266b215af398a74bc245329c25105a0b
+Section: Themes
+Description: Glyph style themes. Mix and Match 5 Icon Sets. Choose 1 or use all 5 together. Arrange the priority order of Icon sets 1, 2, 3, 4 and 5 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 5 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/glif.html
+Icon: https://sudo9000.github.io/info/glificon.png
+Name: Glif
+Sileodepiction: https://sudo9000.github.io/info/glif.json
+
 Package: com.sudo.lightspinnyrgb
 Version: 1.0
 Architecture: iphoneos-arm

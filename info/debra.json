@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "1.8"
+					"text": "1.9"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "1.9"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added the option to Respring or uicache after installing or uninstalling</li>\n<li>Fixed a bug causing selections from Deb menu to choose wrong debs if the filename contained spaces</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

@@ -94,10 +94,10 @@ Architecture: iphoneos-arm
 Maintainer: Sudo <sudo9000@outlook.com>
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
 Filename: debs/com.sudo.glif_2.2_iphoneos-arm.deb
-Size: 56873558
-MD5sum: 3dbaaa4c9b0d3873b75eeb12adf223aa
-SHA1: f2c005d1ec7e91ab20f5fa26c7a65cedf73f9dff
-SHA256: df6e2f4f7850c31dbb0ca67ddb48a3b2f2da9ab5535f1b6286ca25cd8fdd34fc
+Size: 56913046
+MD5sum: 9c37324961113ba022f654c2d1e4bd25
+SHA1: 1245eb4fa5b5c322057eb4dab32d5331c5cddcb6
+SHA256: 5fa7efe48626e37e4599db355a0ba9480139672bf0e67f45fb2d3f2fe95d3f0d
 Section: Themes
 Description: Glyph style themes. Mix and Match 6 Icon Sets. Choose 1 or use all 6 together. Arrange the priority order of Icon sets 1, 2, 3, 4, 5, 6 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 6 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.
 Author: Sudo <sudo9000@outlook.com>

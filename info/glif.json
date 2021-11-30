@@ -17,7 +17,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "Glyph style themes. Mix and Match 5 Icon Sets. Choose 1 or use all 5 together. Arrange the priority order of Icon sets 1, 2, 3, 4 and 5 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 5 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.",
+					"markdown": "Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all together. Arrange the priority order of Icon sets 1, 2, 3, 4 etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.",
 					"useRawFormat": true
 				},
 				{
@@ -28,7 +28,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>5 icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animation</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
+					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>Various icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animation</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
 					"useRawFormat": true
 				},
 				{
@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.1"
+					"text": "2.2"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a 6th icon set</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

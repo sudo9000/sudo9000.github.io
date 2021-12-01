@@ -4,13 +4,13 @@
   "itemCornerRadius":10,
   "banners":[
     {
-      "url":"https://i.imgur.com/p6k5a3l.png",
+      "url":"https://i.imgur.com/b4W2mTI.png",
       "title":"Debra",
       "package":"com.sudo.debra",
       "hideShadow":false
     },
     {
-      "url":"https://i.imgur.com/SgjfXmO.png",
+      "url":"https://i.imgur.com/BzWt42g.png",
       "title":"Glif",
       "package":"com.sudo.glif",
       "hideShadow":false

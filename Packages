@@ -1,3 +1,22 @@
+Package: com.sudo.autotouchcnvrt
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Installed-Size: 420
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, sed, xyz.cypwn.autotouch | me.autotouch.autotouch.ios8
+Filename: debs/com.sudo.autotouchcnvrt_1.0_iphoneos-arm.deb
+Size: 58330
+MD5sum: 36ccd3c34a87cdc47487437fadc62a0b
+SHA1: 149c8df25e29357f71a57d82910f9030c02cb25c
+SHA256: 304e11908969b54ea004a53c33af21aff8ab1036392131769d1d65c60dd8e464
+Section: Tweaks
+Description: Control Center module to convert AutoTouch scripts from .js to .lua
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/autotouchcnvrt.html
+Icon: https://sudo9000.github.io/info/autotouchcnvrt.png
+Name: AutoTouch Convert CC Module
+Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
+
 Package: com.sudo.debra
 Version: 1.8
 Architecture: iphoneos-arm

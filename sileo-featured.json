@@ -15,6 +15,12 @@
       "package":"com.sudo.glif",
       "hideShadow":false
     },
+		{
+			"url":"https://i.imgur.com/vNoyKBz.png",
+			"title":"AutoTouch Convert CC Module",
+			"package":"com.sudo.autotouchcnvrt",
+			"hideShadow":false
+		},
     {
       "url":"https://i.imgur.com/pdBXVrl.png",
       "title":"lightspinnyRGB",

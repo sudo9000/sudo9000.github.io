@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "1.9"
+					"text": "2.0"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.0"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Fixed crucial DEBIAN files being missed when re-packaging tweaks such as preinst, postinst, prerm, postrm, extrainst_ and control-e files when applicable</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

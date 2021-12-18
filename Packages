@@ -53,6 +53,24 @@ Icon: https://sudo9000.github.io/info/debra.png
 Name: Debra
 Sileodepiction: https://sudo9000.github.io/info/debra.json
 
+Package: com.sudo.debra
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
+Filename: debs/com.sudo.debra_2.0_iphoneos-arm.deb
+Size: 4390
+MD5sum: 97af76f6f7c94c036099ae893cb5a90b
+SHA1: a7e8c6d1ab1efe173a67ab799eb58d4104f0ba40
+SHA256: 9db81c6ab2533a4256a2899ce2c92c107943c0ffbe921fe45718610014d91ee1
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo & Paisseon
+Depiction: https://sudo9000.github.io/info/debra.html
+Icon: https://sudo9000.github.io/info/debra.png
+Name: Debra
+Sileodepiction: https://sudo9000.github.io/info/debra.json
+
 Package: com.sudo.glif
 Version: 1.0.1
 Architecture: iphoneos-arm

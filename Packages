@@ -18,53 +18,17 @@ Name: AutoTouch Convert CC Module
 Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
 
 Package: com.sudo.debra
-Version: 1.8
+Version: 2.3
 Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
-Filename: debs/com.sudo.debra_1.8_iphoneos-arm.deb
-Size: 4256
-MD5sum: ed612ad4cad5d0a40a7aace5ec4967d5
-SHA1: bf5f143d654208c18f4aac88cef7eb42de769645
-SHA256: b78828b31799b8f8197463312826c7a9439a4391620f7c8b282e45473c7ede2a
+Maintainer: Sudo
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), com.opa334.ccsupport
+Filename: debs/com.sudo.debra_2.3_iphoneos-arm.deb
+Size: 46188
+MD5sum: 501049f76d7413ffed339dcc4dae18b2
+SHA1: 483920e1cb6410ce2e03868d2138791257bf1547
+SHA256: 87cbac04cbec12c520e6d7d27c633e141a94cc4eeec773a5b78ff2e90cbc3f8e
 Section: Utilities
-Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
-Author: Sudo & Paisseon
-Depiction: https://sudo9000.github.io/info/debra.html
-Icon: https://sudo9000.github.io/info/debra.png
-Name: Debra
-Sileodepiction: https://sudo9000.github.io/info/debra.json
-
-Package: com.sudo.debra
-Version: 1.9
-Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
-Filename: debs/com.sudo.debra_1.9_iphoneos-arm.deb
-Size: 4298
-MD5sum: 4ba206598e1fa71c573ac76c95565ada
-SHA1: 5555218375ae1c07edbc8dca2bcf6592b3d0f3cf
-SHA256: 2dd439b4ae8aec228645cee393e1feb48ba439dab8b5e95b627ccfb3eab1e58f
-Section: Utilities
-Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
-Author: Sudo & Paisseon
-Depiction: https://sudo9000.github.io/info/debra.html
-Icon: https://sudo9000.github.io/info/debra.png
-Name: Debra
-Sileodepiction: https://sudo9000.github.io/info/debra.json
-
-Package: com.sudo.debra
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
-Filename: debs/com.sudo.debra_2.0_iphoneos-arm.deb
-Size: 4390
-MD5sum: 97af76f6f7c94c036099ae893cb5a90b
-SHA1: a7e8c6d1ab1efe173a67ab799eb58d4104f0ba40
-SHA256: 9db81c6ab2533a4256a2899ce2c92c107943c0ffbe921fe45718610014d91ee1
-Section: Utilities
-Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal. Includes a CC button to quickly launch Debra folder in Filza.
 Author: Sudo & Paisseon
 Depiction: https://sudo9000.github.io/info/debra.html
 Icon: https://sudo9000.github.io/info/debra.png
@@ -72,72 +36,17 @@ Name: Debra
 Sileodepiction: https://sudo9000.github.io/info/debra.json
 
 Package: com.sudo.glif
-Version: 1.0.1
+Version: 2.4-1
 Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
-Filename: debs/com.sudo.glif_1.0.1_iphoneos-arm.deb
-Size: 13295420
-MD5sum: b35d68d5fd7cc9f352367d77388def96
-SHA1: 253af74230835e69e3ce148fa3d9182566d9d35c
-SHA256: ca194ea2ed55f276521607a90ab8384ce2620a95ec8203f7c7765dfc515218a4
+Maintainer: Sudo
+Filename: debs/com.sudo.glif_2.4-1_iphoneos-arm.deb
+Size: 83513658
+MD5sum: b72caa155ffb38daf86bfd081e5e4761
+SHA1: 4426808fa3f6279a52535d6c762e1b30dca2fce1
+SHA256: f51d173ba5ca4e11d1b06605eada40f7d28297cb72b183653ea978f5d15eeb47
 Section: Themes
-Description: Glyph style theme utilizing vibrant color range
-Author: Sudo <sudo9000@outlook.com>
-Depiction: https://sudo9000.github.io/info/glif.html
-Icon: https://sudo9000.github.io/info/glif.png
-Name: Glif
-Sileodepiction: https://sudo9000.github.io/info/glif.json
-
-Package: com.sudo.glif
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
-Filename: debs/com.sudo.glif_2.0_iphoneos-arm.deb
-Size: 36220472
-MD5sum: f91aad683e58475349ea3efed5fef951
-SHA1: 4a13b17cade09f79f8b8c1fcbba662eb2c00797b
-SHA256: 7ebe03be64e178111fd129523af28269e35c4f5f0be6b696300d6dfe0a56c027
-Section: Themes
-Description: Glyph style themes. Mix and Match 4 Icon Sets. Choose 1 or use all 4 together. Arrange the priority order of Icon sets 1, 2, 3, and 4 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 4 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.
-Author: Sudo <sudo9000@outlook.com>
-Depiction: https://sudo9000.github.io/info/glif.html
-Icon: https://sudo9000.github.io/info/glificon.png
-Name: Glif
-Sileodepiction: https://sudo9000.github.io/info/glif.json
-
-Package: com.sudo.glif
-Version: 2.1
-Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
-Filename: debs/com.sudo.glif_2.1_iphoneos-arm.deb
-Size: 42493036
-MD5sum: 2dc89997e7f092004ba4b5f51a2b35b3
-SHA1: 9c5f1d34ccc19fd182e63503d9da028788ffd029
-SHA256: 07e63615bce1320147b0ad0a0b5c5a37266b215af398a74bc245329c25105a0b
-Section: Themes
-Description: Glyph style themes. Mix and Match 5 Icon Sets. Choose 1 or use all 5 together. Arrange the priority order of Icon sets 1, 2, 3, 4 and 5 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 5 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.
-Author: Sudo <sudo9000@outlook.com>
-Depiction: https://sudo9000.github.io/info/glif.html
-Icon: https://sudo9000.github.io/info/glificon.png
-Name: Glif
-Sileodepiction: https://sudo9000.github.io/info/glif.json
-
-Package: com.sudo.glif
-Version: 2.2
-Architecture: iphoneos-arm
-Maintainer: Sudo <sudo9000@outlook.com>
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.respringextension, com.spark.snowboard.settingsicons, com.spark.snowboard.ui, com.spark.snowboard.pagedots
-Filename: debs/com.sudo.glif_2.2_iphoneos-arm.deb
-Size: 56913046
-MD5sum: 9c37324961113ba022f654c2d1e4bd25
-SHA1: 1245eb4fa5b5c322057eb4dab32d5331c5cddcb6
-SHA256: 5fa7efe48626e37e4599db355a0ba9480139672bf0e67f45fb2d3f2fe95d3f0d
-Section: Themes
-Description: Glyph style themes. Mix and Match 6 Icon Sets. Choose 1 or use all 6 together. Arrange the priority order of Icon sets 1, 2, 3, 4, 5, 6 in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all 6 together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.
-Author: Sudo <sudo9000@outlook.com>
+Description: Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all Icon sets together. Arrange the priority order of Icon sets 1, 2, 3, 4, etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 icon BG color at a time.
+Author: Sudo
 Depiction: https://sudo9000.github.io/info/glif.html
 Icon: https://sudo9000.github.io/info/glificon.png
 Name: Glif

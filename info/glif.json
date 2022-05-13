@@ -17,7 +17,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all together. Arrange the priority order of Icon sets 1, 2, 3, 4 etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect.",
+					"markdown": "Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all together. Arrange the priority order of Icon sets 1, 2, 3, 4 etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 BG color at a time.",
 					"useRawFormat": true
 				},
 				{
@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.2"
+					"text": "2.4-1"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added more glyph icon sets</li>\n<li>Added more BG colors</li>\n<li>Many new icons added</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

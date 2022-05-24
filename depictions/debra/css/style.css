@@ -92,6 +92,34 @@ html, body {
 
   }
 
+	.features .container {
+
+		text-align: center;
+
+	}
+
+	.features .container h1 {
+
+		font-size: 25px;
+		font-family: 'Linotte Light';
+		color:#FFFFFF;
+		margin-bottom: 0;
+		padding-bottom: 0;
+
+	}
+
+	.features .container p {
+
+		font-family: 'Linotte Light';
+		color:#FFFFFF90;
+		font-size: 19px;
+		margin-top: 0;
+		padding-top: 0;
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+
   .screenshots .container ul {
 
     margin: 0;
@@ -146,7 +174,7 @@ html, body {
 
   }
 
-  .longDescription .container h1 {
+  .changelog .container h1 {
 
     font-size: 25px;
     font-family: 'Linotte Light';
@@ -158,28 +186,29 @@ html, body {
 
   }
 
-  .longDescription .container h2 {
+  .changelog .container h2 {
 
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Linotte Light';
     color:#FFFFFF;
     margin-bottom: 0;
     padding-bottom: 0;
-    padding-left: 20;
+    padding-left: 0;
+		text-align: center;
     transform: translateY(45px);
 
   }
 
-  .longDescription .container p {
+  .changelog .container p {
 
     font-family: 'Linotte Light';
     color:#FFFFFF90;
     font-size: 17px;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    /* text-align: center; */
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
     transform: translateY(55px);
 
   }
@@ -273,9 +302,9 @@ html, body {
     font-size: 17px;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    /* text-align: center; */
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
     transform: translateY(10px);
 
   }

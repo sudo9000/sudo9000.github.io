@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.6"
+					"text": "2.6.1"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.1"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added 2 new argument options</li>\n<li>debra -f : fixes dpkg locked errors</li>\n<li>debra -h : help/usage display</li>\n<li>other small fixes</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

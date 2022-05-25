@@ -36,6 +36,7 @@ html, body {
   	color: #BD987E;
   	cursor: pointer;
   	padding: 18px;
+		margin-left: 5px;
   	width: 100%;
   	border: none;
 		font-weight: bold;
@@ -208,7 +209,7 @@ html, body {
 	font-size: 25px;
 	margin: 0;
 	padding: 0;
-  margin-right: 18px;
+	margin-right: 10px;
 	text-align: center;
 	white-space: nowrap;
 	transform: translateY(10px);

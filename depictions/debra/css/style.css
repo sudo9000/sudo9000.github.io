@@ -30,6 +30,72 @@ html, body {
 
   }
 
+	.collapsible {
+  	background-color: #232E38;
+		font-family: 'Linotte Light';
+  	color: #BD987E;
+  	cursor: pointer;
+  	padding: 18px;
+  	width: 100%;
+  	border: none;
+		font-weight: bold;
+  	text-align: center;
+  	outline: none;
+  	font-size: 25px;
+	}
+
+	.active, .collapsible:hover {
+  	background-color: #324151;
+	}
+
+	.collapsible:after {
+  	content: '\002B';
+  	color: #BD987E;
+  	font-weight: bold;
+  	float: right;
+  	margin-left: 5px;
+	}
+
+	.active:after {
+  	content: "\2212";
+	}
+
+	.features {
+	  background-color: #232E38;
+	  padding: 0 18px;
+		font-family: 'Linotte Light';
+	  color: #7CB2BD;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	  text-align: center;
+	  font-size: 17px;
+	}
+
+	.changelog {
+	  background-color: #232E38;
+	  padding: 0 18px;
+		font-family: 'Linotte Light';
+	  color: #9A88BF;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	  text-align: center;
+	  font-size: 17px;
+	}
+
+	.dependencies {
+		background-color: #232E38;
+		padding: 0 18px;
+		font-family: 'Linotte Light';
+		color: #BE7D7D;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
+		text-align: center;
+		font-size: 17px;
+	}
+
   #navbar-title {
 
     display: inline-block;
@@ -74,7 +140,7 @@ html, body {
 
     font-size: 50px;
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     margin-bottom: 0;
     padding-bottom: 0;
 
@@ -83,7 +149,7 @@ html, body {
 	.about .container h6 {
 
     font-family: 'Linotte Light';
-    color:#7BBE92;
+    color: #7BBE92;
     font-size: 12px;
     margin-top: 0;
     padding-top: 0;
@@ -95,7 +161,8 @@ html, body {
   .about .container p {
 
     font-family: 'Linotte Light';
-    color:#C5C387;
+    color: #C5C387;
+		font-weight: bold;
     font-size: 19px;
     margin-top: 0;
     padding-top: 0;
@@ -104,6 +171,7 @@ html, body {
 
   }
 
+/*
 	.features .container {
 
 		text-align: center;
@@ -114,7 +182,7 @@ html, body {
 
 		font-size: 25px;
 		font-family: 'Linotte Light';
-		color:#7CB2BD;
+		color: #7CB2BD;
 		margin-bottom: 0;
 		padding-bottom: 0;
 
@@ -123,7 +191,7 @@ html, body {
 	.features .container p {
 
 		font-family: 'Linotte Light';
-		color:#C3CCD4;
+		color: #C3CCD4;
 		font-size: 17px;
 		margin-top: 0;
 		padding-top: 0;
@@ -131,6 +199,21 @@ html, body {
 		margin-right: 20px;
 
 	}
+*/
+
+.screenshots .container h1 {
+
+  font-family: 'Linotte Light';
+  color: #BD987E;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+  margin-right: 18px;
+	text-align: center;
+	white-space: nowrap;
+	transform: translateY(10px);
+
+}
 
   .screenshots .container ul {
 
@@ -155,6 +238,7 @@ html, body {
 
   .screenshots .container ul li img, .screenshots .container ul li video {
 
+  	background-color: #232E38;
     height: 390px;
     width: auto;
     border-radius: 14px;
@@ -177,7 +261,7 @@ html, body {
   .video-title .container p {
 
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     font-size: 19px;
     margin-top: 0;
     padding-top: 0;
@@ -186,11 +270,12 @@ html, body {
 
   }
 
+/*
   .changelog .container h1 {
 
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#BD987E;
+    color: #BD987E;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
@@ -202,7 +287,7 @@ html, body {
 
     font-size: 20px;
     font-family: 'Linotte Light';
-    color:#9A88BF;
+    color: #9A88BF;
     margin-bottom: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -214,7 +299,7 @@ html, body {
   .changelog .container p {
 
     font-family: 'Linotte Light';
-    color:#C3CCD4;
+    color: #C3CCD4;
     font-size: 17px;
     margin-top: 0;
     padding-top: 0;
@@ -224,12 +309,13 @@ html, body {
     transform: translateY(55px);
 
   }
+*/
 
   .compatibility .container h1 {
 
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
@@ -261,7 +347,7 @@ html, body {
     vertical-align: middle;
     text-align: left;
     padding-left: 55;
-    color: #D8E1E995;
+    color: #D8E1E9;
     font-family: Arial, Helvetica, sans-serif;
     height: 110px;
 
@@ -287,7 +373,7 @@ html, body {
     text-align: left;
     padding-left: 10;
     /* color: #707070; */
-    color: #c44848;
+    color: #C44848;
     font-family: Arial, Helvetica, sans-serif;
     height: 110px;
 
@@ -298,7 +384,7 @@ html, body {
     margin: 30px 0;
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#707070;
+    color: #707070;
 
   }
 
@@ -307,10 +393,11 @@ html, body {
     text-align: center;
   }
 
+/*
   .dependencies .container p {
 
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     font-size: 17px;
     margin-top: 0;
     padding-top: 0;
@@ -325,13 +412,14 @@ html, body {
 
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#BE7D7D;
+    color: #BE7D7D;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
     transform: translateY(45px);
 
   }
+*/
 
   .details .container {
 
@@ -343,7 +431,7 @@ html, body {
 
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#7BBE92;
+    color: #7BBE92;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
@@ -363,7 +451,7 @@ html, body {
 
     text-decoration: none;
     list-style: none;
-    color:#D8E1E9;
+    color: #D8E1E9;
     font-family: 'Linotte Light';
     font-size: 19px;
     display: block;
@@ -374,35 +462,35 @@ html, body {
   A.tc:link  {
 
     text-decoration: none;
-    color:#F1462C;
+    color: #F1462C;
 
   }
 
   A.tc:visited {
 
     text-decoration: none;
-    color:#F1462C;
+    color: #F1462C;
 
   }
 
   A.tc:hover {
 
     text-decoration: none;
-    color:#F1462C;
+    color: #F1462C;
 
   }
 
   A.tc:focus {
 
     text-decoration: none;
-    color:#F1462C;
+    color: #F1462C;
 
   }
 
   A.tc:hover, a:active {
 
     text-decoration: none;
-    color:#F1462C;
+    color: #F1462C;
 
   }
 
@@ -410,7 +498,7 @@ html, body {
 
     font-size: 25px;
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
@@ -422,7 +510,7 @@ html, body {
 
     font-size: 20px;
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
@@ -433,7 +521,7 @@ html, body {
 
     font-size: 16px;
     font-family: 'Linotte Light';
-    color:#D8E1E9;
+    color: #D8E1E9;
     padding-left: 20px;
     padding-right: 20px;
 

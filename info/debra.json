@@ -28,7 +28,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "<ul>\n<li>Easily select from list of installed Tweaks</li>\n<li>Repack installed Tweaks into .deb</li>\n<li>Uninstall existing Tweaks</li>\n<li>Easily select from list of saved Debs</li>\n<li>Extract saved Deb from CyDown folder</li>\n<li>Install saved Deb from CyDown folder</li>\n<li>Display installed Tweak count and saved Deb count</li>\n<li>Auto-launches Filza to Debra folder after repacking or extracting</li>\n<li>Includes a CC button to quickly launch to Debra folder</li></ul>",
+					"markdown": "<ul>\n<li>Easily select from list of installed Tweaks</li>\n<li>Repack installed Tweaks into .deb</li>\n<li>Uninstall existing Tweaks</li>\n<li>Easily select from list of saved Debs</li>\n<li>Extract saved Deb from CyDown folder</li>\n<li>Install saved Deb from CyDown folder</li>\n<li>Display installed Tweak count and saved Deb count</li>\n<li>"More" menu option for additional actions</li>\n<li>Export tweak list</li>\n<li>Fix DPKG LOCKED error in package managers</li>\n<li>Auto-launches Filza to Debra folder after repacking or extracting</li>\n<li>Includes a CC button to quickly launch to Debra folder</li></ul>",
 					"useRawFormat": true
 				},
 				{
@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.6.1"
+					"text": "2.6.4"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,39 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.4"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a "More" menu option</li>\n<li>Export tweak list</li>\n<li>Few other small actions in "More" menu option</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.3"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>bug fixes</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.2"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>bug fixes</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

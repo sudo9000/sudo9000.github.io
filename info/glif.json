@@ -28,7 +28,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>Various icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animation</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
+					"markdown": "<ul>\n<li>5,000+ Glyph Icons</li>\n<li><li>Various icon sets that can be mixed and matched with each other using Snowboard priority arrangement</li>\nSettings Icons</li>\n<li>Respring Animations</li>\n<li>Boot Logo</li>\n<li>Custom Clock Icon</li>\n<li>Multiple Icon BG colors with Shadow AE effects</li>\n<li>Plus More!</li></ul>",
 					"useRawFormat": true
 				},
 				{
@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.4-1"
+					"text": "2.4-6"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-6"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>2 new passcode & dialer keypad UIs</li>\n<li>3 new respring logos</li>\n<li>Loads of new icons added including many TrollStore apps</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

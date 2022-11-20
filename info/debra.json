@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.6.4"
+					"text": "2.6.5"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.5"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul><li>Added support for extracting debs with .tar.zst compression</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

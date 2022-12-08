@@ -28,7 +28,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "<ul>\n<li>Easily select from list of installed Tweaks</li>\n<li>Repack installed Tweaks into .deb</li>\n<li>Uninstall existing Tweaks</li>\n<li>Easily select from list of saved Debs</li>\n<li>Extract saved Deb from CyDown folder</li>\n<li>Install saved Deb from CyDown folder</li>\n<li>Display installed Tweak count and saved Deb count</li>\n<li>"More" menu option for additional actions</li>\n<li>Export tweak list</li>\n<li>Fix DPKG LOCKED error in package managers</li>\n<li>Auto-launches Filza to Debra folder after repacking or extracting</li>\n<li>Includes a CC button to quickly launch to Debra folder</li></ul>",
+					"markdown": "<ul>\n<li>Easily select from list of installed Tweaks</li>\n<li>Repack installed Tweaks into .deb</li>\n<li>Uninstall existing Tweaks</li>\n<li>Easily select from list of saved Debs</li>\n<li>Extract saved Debs</li>\n<li>Install saved Debs</li>\n<li>Display installed Tweak count and saved Deb count</li>\n<li>"More" menu option for additional actions</li>\n<li>Export tweak list</li>\n<li>Fix DPKG LOCKED error in package managers</li>\n<li>Auto-launches Filza to Debra folder after repacking or extracting</li>\n<li>Includes a CC button to quickly launch to Debra folder</li></ul>",
 					"useRawFormat": true
 				},
 				{
@@ -59,7 +59,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.6.6"
+					"text": "2.6.7"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -92,6 +92,17 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.6.7"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>Added a slow-down pause (mainly due to Xina issues) so errors can be read when installing or uninstalling, rather than instantly clearing from screen</li>\n<li>No longer requires CyDown folder for saved debs. A new savedDebs folder will be created in Debra directory automatically, and will be symlinked to CyDown folder if one exists</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

@@ -43,7 +43,7 @@
 		<p>• List & filter Installed Tweaks</p>
 		<p>• Repack Installed Tweaks into .deb</p>
 		<p>• Uninstall Tweaks</p>
-		<p>• List & filter Saved Debs from CyDown folder</p>
+		<p>• List & filter Saved Debs</p>
 		<p>• Extract Saved Debs</p>
 		<p>• Install Saved Debs</p>
 		<p>• Displays # of Installed Tweaks & Saved Debs</p>
@@ -78,6 +78,10 @@
 
 	<button class="collapsible">Changelog</button>
 	<div class="changelog">
+		<h3>2.6.7</h3>
+		<p>Added a slow-down pause (mainly due to Xina issues) so errors can be read when installing or uninstalling, rather than instantly clearing from screen</p>
+		<p>No longer requires CyDown folder for saved debs. A new savedDebs folder will be created in Debra directory automatically, and will be symlinked to CyDown folder if one exists</p>
+		<br>
 		<h3>2.6.6</h3>
 		<p>Added iOS 15 support for Xina and Fugu15</p>
 		<br>
@@ -205,8 +209,8 @@
     <div class="container">
       <h1>Details</h1>
       <ul>
-        <li>Current Version: 2.6.6</li>
-        <li>Last Updated: December 5th 2022</li>
+        <li>Current Version: 2.6.7</li>
+        <li>Last Updated: December 8th 2022</li>
       </ul>
     </div>
   </div>

@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudo's Repo</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+  </style>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <div class="container">
+      <img src="assets/sudo.png" alt="HTML5 Icon" width="40" height="40" id="navbar-icon">
+      <h6 id="navbar-title">sudo9000</h6>
+    </div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+  <br>
+
+  <div class="banner">
+    <div class="container">
+      <img src="assets/banner.png">
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="container">
+		  <h1>TermColors</h1>
+		  <h6>Bring life to your terminal!</h6>
+      <p>Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards).</p>
+		</div>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Features</button>
+	<div class="features">
+		<p>• Color prompt</p>
+		<p>• Text colors</p>
+		<p>• Directory colors</p>
+		<p>• Syntax highlighting for cat'ing files (uses bat automatically)</p>
+		<p>• Syntax highlighting for nano editor</p>
+		<p>• Random color prompt generator (type 'random' or permanently make it random each startup)</p>
+		<p>• Now supports XinaA15 jailbreak using NewTerm3</p>
+		<p>• Switch to root using 'toor' command (root backwards)</p>
+  </div>
+
+	<div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<div class="screenshots">
+  	<div class="container">
+			<h1>&#8592; Screenshots &#8594;</h1>
+			<br>
+    	<ul>
+      	<li><a href="assets/termcolors1.png"><img src="assets/termcolors1.png" draggable="false"></a></li>
+      	<li><a href="assets/termcolors2.png"><img src="assets/termcolors2.png" draggable="false"></a></li>
+      	<li><a href="assets/termcolors3.png"><img src="assets/termcolors3.png" draggable="false"></a></li>
+    	</ul>
+  	</div>
+	</div>
+
+	<br>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Changelog</button>
+	<div class="changelog">
+		<h3>2.0.5</h3>
+		<p>Full XinaA15 support in NewTerm3</p>
+		<p>Root CLI access via 'toor' command</p>
+		<br>
+		<h3>1.0</h3>
+		<p>Initial release</p>
+	</div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<button class="collapsible">Dependencies</button>
+	<div class="dependencies">
+    <p>bash (>= 5.0.3.2)</p>
+  </div>
+
+  <div class="separator" style="background-color: #42566A; height: 1px; width:100%; transform: translateY(0px);"></div>
+
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+  	coll[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var content = this.nextElementSibling;
+    	if (content.style.maxHeight){
+      	content.style.maxHeight = null;
+    	} else {
+      	content.style.maxHeight = content.scrollHeight + "px";
+    	}
+  	});
+	}
+	</script>
+
+  <div class="details">
+    <div class="container">
+      <h1>Details</h1>
+      <ul>
+        <li>Current Version: 2.0.5</li>
+        <li>Last Updated: December 20th 2022</li>
+      </ul>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>

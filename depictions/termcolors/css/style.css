@@ -1,0 +1,541 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: #2C3946;
+    max-width: 100vw;
+    overflow-x: initial;
+
+  }
+
+  #navbar{
+
+    width: 100%;
+    height:60px;
+    background: #232E3B;
+
+  }
+
+  #navbar-icon{
+
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    left: 10;
+
+  }
+
+	.collapsible {
+  	background-color: #232E38;
+		font-family: 'Linotte Light';
+  	color: #BD987E;
+  	cursor: pointer;
+  	padding: 18px;
+		margin-left: 5px;
+  	width: 100%;
+  	border: none;
+		font-weight: bold;
+  	text-align: center;
+  	outline: none;
+  	font-size: 25px;
+	}
+
+	.active, .collapsible:hover {
+  	background-color: #324151;
+	}
+
+	.collapsible:after {
+  	content: '\002B';
+  	color: #BD987E;
+  	font-weight: bold;
+  	float: right;
+  	margin-left: 5px;
+	}
+
+	.active:after {
+  	content: "\2212";
+	}
+
+	.features {
+	  background-color: #232E38;
+	  padding: 0 18px;
+		font-family: 'Linotte Light';
+	  color: #7CB2BD;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	  text-align: center;
+	  font-size: 17px;
+	}
+
+	.changelog {
+	  background-color: #232E38;
+	  padding: 0 18px;
+		font-family: 'Linotte Light';
+	  color: #9A88BF;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	  text-align: center;
+	  font-size: 17px;
+	}
+
+	.dependencies {
+		background-color: #232E38;
+		padding: 0 18px;
+		font-family: 'Linotte Light';
+		color: #BE7D7D;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
+		text-align: center;
+		font-size: 17px;
+	}
+
+  #navbar-title {
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 60;
+    color: #7BB1BD;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .price-tag {
+
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: #F1462C;
+    margin: auto;
+
+  }
+
+  .banner .container img {
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-x: initial;
+
+  }
+
+  .about .container {
+
+    text-align: center;
+
+  }
+
+  .about .container h1 {
+
+    font-size: 50px;
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+  }
+
+	.about .container h6 {
+
+    font-family: 'Linotte Light';
+    color: #7BBE92;
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .about .container p {
+
+    font-family: 'Linotte Light';
+    color: #C5C387;
+		font-weight: bold;
+    font-size: 19px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+/*
+	.features .container {
+
+		text-align: center;
+
+	}
+
+	.features .container h1 {
+
+		font-size: 25px;
+		font-family: 'Linotte Light';
+		color: #7CB2BD;
+		margin-bottom: 0;
+		padding-bottom: 0;
+
+	}
+
+	.features .container p {
+
+		font-family: 'Linotte Light';
+		color: #C3CCD4;
+		font-size: 17px;
+		margin-top: 0;
+		padding-top: 0;
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+*/
+
+.screenshots .container h1 {
+
+  font-family: 'Linotte Light';
+  color: #BD987E;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+	text-align: center;
+	white-space: nowrap;
+	transform: translateY(10px);
+
+}
+
+  .screenshots .container ul {
+
+    margin: 0;
+    padding: 0;
+    height: 420px;
+    text-align: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    transform: translateY(10px);
+
+  }
+
+  .screenshots .container ul li {
+
+    display: inline;
+    padding: 2px;
+
+  }
+
+  .screenshots .container ul li img, .screenshots .container ul li video {
+
+  	background-color: #232E38;
+    height: 390px;
+    width: auto;
+    border-radius: 14px;
+
+  }
+
+  iframe {
+
+    border: 1px solid #1B1B1B;
+    border-radius: 20px;
+
+  }
+
+  .video-title .container {
+
+    text-align: center;
+
+  }
+
+  .video-title .container p {
+
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    font-size: 19px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+/*
+  .changelog .container h1 {
+
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #BD987E;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    transform: translateY(45px);
+
+  }
+
+  .changelog .container h2 {
+
+    font-size: 20px;
+    font-family: 'Linotte Light';
+    color: #9A88BF;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+		text-align: center;
+    transform: translateY(45px);
+
+  }
+
+  .changelog .container p {
+
+    font-family: 'Linotte Light';
+    color: #C3CCD4;
+    font-size: 17px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    transform: translateY(55px);
+
+  }
+*/
+
+  .compatibility .container h1 {
+
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    transform: translateY(45px);
+
+  }
+
+  #iPhone-Section{
+
+    width: 100%;
+    height:110px;
+    /* background: #06101F; */
+
+  }
+
+  #iPhone-Image{
+
+    /* position: absolute; */
+    /* top: 10; */
+    /* bottom: 0; */
+    /* left: 30; */
+    padding-left: 60;
+
+  }
+
+  #iPhone-title {
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 55;
+    color: #D8E1E9;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+
+  }
+
+  #iPad-Section{
+
+    width: 100%;
+    height:110px;
+
+  }
+
+  #iPad-Image{
+
+    padding-left: 15;
+
+  }
+
+  #iPad-title {
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 10;
+    /* color: #707070; */
+    color: #C44848;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+
+  }
+
+  #social-media h2 {
+
+    margin: 30px 0;
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #707070;
+
+  }
+
+  #social-media {
+    padding: 50px;
+    text-align: center;
+  }
+
+/*
+  .dependencies .container p {
+
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    font-size: 17px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    transform: translateY(10px);
+
+  }
+
+  .dependencies .container h1 {
+
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #BE7D7D;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    transform: translateY(45px);
+
+  }
+*/
+
+  .details .container {
+
+    transform: translateY(20px);
+
+  }
+
+  .details .container h1 {
+
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #7BBE92;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+
+  }
+
+  .details .container ul {
+
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    transform: translateY(10px);
+
+  }
+
+  .details .container ul li {
+
+    text-decoration: none;
+    list-style: none;
+    color: #D8E1E9;
+    font-family: 'Linotte Light';
+    font-size: 19px;
+    display: block;
+    text-align: center;
+
+  }
+
+  A.tc:link  {
+
+    text-decoration: none;
+    color: #F1462C;
+
+  }
+
+  A.tc:visited {
+
+    text-decoration: none;
+    color: #F1462C;
+
+  }
+
+  A.tc:hover {
+
+    text-decoration: none;
+    color: #F1462C;
+
+  }
+
+  A.tc:focus {
+
+    text-decoration: none;
+    color: #F1462C;
+
+  }
+
+  A.tc:hover, a:active {
+
+    text-decoration: none;
+    color: #F1462C;
+
+  }
+
+  .tctitle .container h1 {
+
+    font-size: 25px;
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  .tcsection .container h2 {
+
+    font-size: 20px;
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .tcsection .container p {
+
+    font-size: 16px;
+    font-family: 'Linotte Light';
+    color: #D8E1E9;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .centerImage
+{
+ text-align:center;
+ display:block;
+}
+
+
+  @font-face {
+    font-family: 'Linotte Light';
+    src: url("Linotte Light.otf");
+  }

@@ -1,0 +1,108 @@
+Package: com.sudo.autotouchcnvrt
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Installed-Size: 420
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, sed, xyz.cypwn.autotouch | me.autotouch.autotouch.ios8
+Filename: debs/com.sudo.autotouchcnvrt_1.0_iphoneos-arm.deb
+Size: 58330
+MD5sum: 36ccd3c34a87cdc47487437fadc62a0b
+SHA1: 149c8df25e29357f71a57d82910f9030c02cb25c
+SHA256: 304e11908969b54ea004a53c33af21aff8ab1036392131769d1d65c60dd8e464
+Section: Tweaks
+Description: Control Center module to convert AutoTouch scripts from .js to .lua
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/autotouchcnvrt.html
+Icon: https://sudo9000.github.io/info/autotouchcnvrt.png
+Name: AutoTouch Convert CC Module
+Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
+
+Package: com.sudo.debra
+Version: 2.6.8
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), com.sudo.termcolors (>= 2.0.5)
+Filename: debs/com.sudo.debra_2.6.8_iphoneos-arm.deb
+Size: 29254
+MD5sum: 0b7c749e0418abc2224f5ddcd73c03b5
+SHA1: 8ba89828815758ffb9245099729404043da1e8f0
+SHA256: b4eec644d48bc77407d0caf4e53b2dc7404e3ad906c9d48a94231bb2791cd6e9
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo & Paisseon
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.glif
+Version: 2.4-6
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Filename: debs/com.sudo.glif_2.4-6_iphoneos-arm.deb
+Size: 86060714
+MD5sum: 784434b7a0941bbfbb84da91bcb6c272
+SHA1: c5b9893469ece2d6769d5c7d15b88269793cf6c5
+SHA256: a3867a365c48b1f18782bd6ecb8f28bf8c402d2ad6087d673995c734ad39f6ff
+Section: Themes
+Description: Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all Icon sets together. Arrange the priority order of Icon sets 1, 2, 3, 4, etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 icon BG color at a time.
+Author: Sudo
+Depiction: https://sudo9000.github.io/info/glif.html
+Icon: https://sudo9000.github.io/info/glificon.png
+Name: Glif
+Sileodepiction: https://sudo9000.github.io/info/glif.json
+
+Package: com.sudo.lightspinnyrgb
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.lightspinnyrgb_1.0_iphoneos-arm.deb
+Size: 300458
+MD5sum: 6c1eb4952e635bcc4b3e950aa7a2e584
+SHA1: d4bcbfbac1d0e285482a2d12590a660a934df6de
+SHA256: e24cc6b7c1606e2e66a1f8a1d5cc0288eac3d2033c9f33cdebdf4ef8c8073ce3
+Section: Themes
+Description: Original respring logo in color!
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/lightspinnyrgb.html
+Icon: https://sudo9000.github.io/info/lightspinnyrgb.png
+Name: lightspinnyRGB
+Sileodepiction: https://sudo9000.github.io/info/lightspinnyrgb.json
+
+Package: com.sudo.noads4yahoomail
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: mobilesubstrate
+Filename: debs/com.sudo.noads4yahoomail_1.0_iphoneos-arm.deb
+Size: 5712
+MD5sum: 19ba586987995b26ca6c211d26b2d6f2
+SHA1: 9fef5c985d2df1db2e16df4262ce636aba5bed26
+SHA256: bf475e880f19cffc9d2d504de05979a6c0d6ec7e7caf0bafa9135946e8446200
+Section: Tweaks
+Description: Removes all Ads from Yahoo Mail app. For use with Yahoo Mail app from App Store. No options to configure.
+Author: Sudo <sudo9000@outlook.com>
+Depiction: https://sudo9000.github.io/info/noads4yahoomail.html
+Icon: https://sudo9000.github.io/info/noads4yahoomail.png
+Name: NoAds4YahooMail
+Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
+
+Package: com.sudo.termcolors
+Version: 2.0.5
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: mobilesubstrate, bash
+Conflicts: xyz.cypwn.bat, bat
+Filename: debs/com.sudo.termcolors_2.0.5_iphoneos-arm.deb
+Size: 2699564
+MD5sum: 7521e7046c9f5724993197393d173a4f
+SHA1: 80695c2cd5c16f06aaff04b336a8fb128ee906f4
+SHA256: 522b7cbc18774eda46d260616b887db2b6a0da3ccce21fd019efb0a878b33aab
+Section: Utilities
+Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards).
+Author: Sudo & Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/690
+Icon: https://sudo9000.github.io/info/termcolors.png
+Name: Term Colors
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/690
+

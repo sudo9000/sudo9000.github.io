@@ -95,14 +95,14 @@ Depends: mobilesubstrate, bash
 Conflicts: xyz.cypwn.bat, bat
 Filename: debs/com.sudo.termcolors_2.0.5_iphoneos-arm.deb
 Size: 2699564
-MD5sum: 7521e7046c9f5724993197393d173a4f
-SHA1: 80695c2cd5c16f06aaff04b336a8fb128ee906f4
-SHA256: 522b7cbc18774eda46d260616b887db2b6a0da3ccce21fd019efb0a878b33aab
+MD5sum: 94858942d5fb18c2555e9d8f76f8c6f5
+SHA1: 73722edfd2909e8426f5f23c03c0d89cbd38cd88
+SHA256: 476dd7be3ea3f92b958a73f2f25eb7c452238173d3f2ae56bc0bb07b9b1422d6
 Section: Utilities
 Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards).
 Author: Sudo & Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/690
+Depiction: https://repo.cypwn.xyz/depiction/866
 Icon: https://sudo9000.github.io/info/termcolors.png
 Name: Term Colors
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/690
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/866
 

@@ -88,20 +88,21 @@ Name: NoAds4YahooMail
 Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
 
 Package: com.sudo.termcolors
-Version: 2.0.5
+Version: 2.0.6
 Architecture: iphoneos-arm
 Maintainer: Sudo
 Depends: mobilesubstrate, bash
 Conflicts: xyz.cypwn.bat, bat
-Filename: debs/com.sudo.termcolors_2.0.5_iphoneos-arm.deb
-Size: 2699556
-MD5sum: f4a012b388b516bb4c523258eb9b67cf
-SHA1: 62b486b364f259c9fa998e76f07bdb0b753006e8
-SHA256: 57f9d5a9d380775d3cec4a962b4a1ca51331e0f909d73d2fdd4f4c30091267f0
+Filename: debs/com.sudo.termcolors_2.0.6_iphoneos-arm.deb
+Size: 2771860
+MD5sum: 77a33baed8886af6cabc1df68f290393
+SHA1: 9b9928a22ca77955656248f4dfd5806e1f44ee37
+SHA256: e42028ca0aa3f83d83d5ee96946d64840ffa2e8f7bf09731b001b44f8a60f372
 Section: Utilities
 Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards).
 Author: Sudo & Paisseon
-Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
-Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Depiction: https://repo.cypwn.xyz/depiction/690
+Icon: https://sudo9000.github.io/info/termcolors.png
 Name: Term Colors
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/690
 

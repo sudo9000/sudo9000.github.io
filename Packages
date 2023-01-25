@@ -18,15 +18,15 @@ Name: AutoTouch Convert CC Module
 Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
 
 Package: com.sudo.debra
-Version: 2.7.1
+Version: 2.7.2
 Architecture: iphoneos-arm
 Maintainer: Sudo
 Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), com.sudo.termcolors (>= 2.0.5)
-Filename: debs/com.sudo.debra_2.7.1_iphoneos-arm.deb
-Size: 14902
-MD5sum: b2dbe8c4127d75901c588ee1ecdceafd
-SHA1: 1a666d3b563ece19fd7282215ead85991a63ff2c
-SHA256: c36cd7c4a6cf0ee3c6fd6299aef745c9849389efd8bc9b2dedfdbf9398e4467a
+Filename: debs/com.sudo.debra_2.7.2_iphoneos-arm.deb
+Size: 15670
+MD5sum: 399b5241ec2e2928538919b06a404803
+SHA1: 656bd6e619ff1041e8e5e86c2ab2d42009db7629
+SHA256: 45520faf6c176107f66ef85dff10c985a63b4aaedc096734fe9b389e87a03261
 Section: Utilities
 Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
 Author: Sudo & Paisseon

@@ -88,21 +88,20 @@ Name: NoAds4YahooMail
 Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
 
 Package: com.sudo.termcolors
-Version: 2.0.6
+Version: 2.0.7
 Architecture: iphoneos-arm
 Maintainer: Sudo
 Depends: mobilesubstrate, bash
 Conflicts: xyz.cypwn.bat, bat
-Filename: debs/com.sudo.termcolors_2.0.6_iphoneos-arm.deb
-Size: 2771860
-MD5sum: 77a33baed8886af6cabc1df68f290393
-SHA1: 9b9928a22ca77955656248f4dfd5806e1f44ee37
-SHA256: e42028ca0aa3f83d83d5ee96946d64840ffa2e8f7bf09731b001b44f8a60f372
+Filename: debs/com.sudo.termcolors_2.0.7_iphoneos-arm.deb
+Size: 2771896
+MD5sum: f0370ddaf0945533be61dc79d79890b5
+SHA1: 7e8c4e2f60a30ab43e10e7ca4b8bf3d02ca19aea
+SHA256: 9dadff3ddf14e8ac63c196d9afbc7a2c011ebdef21af5adf72f4b0112ecf02a4
 Section: Utilities
-Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards).
+Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards). Temporary sudo fix for Xina users by aliasing sudo and su to 'toor'
 Author: Sudo & Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/690
-Icon: https://sudo9000.github.io/info/termcolors.png
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
 Name: Term Colors
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/690
 

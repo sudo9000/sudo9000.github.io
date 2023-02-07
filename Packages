@@ -94,10 +94,10 @@ Maintainer: Sudo
 Depends: mobilesubstrate, bash
 Conflicts: xyz.cypwn.bat, bat
 Filename: debs/com.sudo.termcolors_2.0.7_iphoneos-arm.deb
-Size: 2771896
-MD5sum: f0370ddaf0945533be61dc79d79890b5
-SHA1: 7e8c4e2f60a30ab43e10e7ca4b8bf3d02ca19aea
-SHA256: 9dadff3ddf14e8ac63c196d9afbc7a2c011ebdef21af5adf72f4b0112ecf02a4
+Size: 2771912
+MD5sum: 09147d1a6de14bba73054fa507072607
+SHA1: a7e7aa34dd3f1a032a9f17c8e8f9dab3c5e06e39
+SHA256: f96b420030c1d92aa596388d0746fddf7a42c7edea4c1bd284e511980a42f878
 Section: Utilities
 Description: Bash setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 support! Added the ability to switch to root user with 'toor' command (root backwards). Temporary sudo fix for Xina users by aliasing sudo and su to 'toor'
 Author: Sudo & Paisseon

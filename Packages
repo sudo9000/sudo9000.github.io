@@ -35,14 +35,14 @@ Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
 Name: Debra
 
 Package: com.sudo.glif
-Version: 2.4-6
+Version: 2.4-9
 Architecture: iphoneos-arm
 Maintainer: Sudo
-Filename: debs/com.sudo.glif_2.4-6_iphoneos-arm.deb
-Size: 86060714
-MD5sum: 784434b7a0941bbfbb84da91bcb6c272
-SHA1: c5b9893469ece2d6769d5c7d15b88269793cf6c5
-SHA256: a3867a365c48b1f18782bd6ecb8f28bf8c402d2ad6087d673995c734ad39f6ff
+Filename: debs/com.sudo.glif_2.4-9_iphoneos-arm.deb
+Size: 86817468
+MD5sum: 31e6845affdda243fca6a6cde8ccb980
+SHA1: 0cc4e06ae5df36002dc1b1c919a3b8d481ff6ece
+SHA256: 7a502bc9c50ae5b2abf7dad8e1375640c8107d65f0269057a171cfa87d56fa59
 Section: Themes
 Description: Glyph style themes. Mix and Match Icon Sets. Choose 1 or use all Icon sets together. Arrange the priority order of Icon sets 1, 2, 3, 4, etc in Snowboard when used together. Highest priority goes to top of order arrangement. Best to use all together to fill the gap of missing icons. Use Glif icons by themself or with any of the included Icon BG colors with shadow AE effect. Enable only 1 icon BG color at a time.
 Author: Sudo

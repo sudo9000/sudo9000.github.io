@@ -48,7 +48,7 @@
 				{
 					"class": "DepictionTableTextView",
 					"title": "Version",
-					"text": "2.4-6"
+					"text": "2.4-9"
 				},
 				{
 					"class": "DepictionTableTextView",
@@ -81,6 +81,39 @@
 			"class": "DepictionStackView",
 			"tintColor": "#00A76A",
 			"views": [
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-9"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-8"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"title": "2.4-7"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "<ul>\n<li>More icons</li></ul>",
+					"useRawFormat": true
+				},
 				{
 					"class": "DepictionSubheaderView",
 					"useBoldText": true,

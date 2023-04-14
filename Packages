@@ -23,10 +23,10 @@ Architecture: all
 Maintainer: Sudo
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: debs/com.sudo.debra_2.7.6_all.deb
-Size: 18908
-MD5sum: 520b4662d2c2349021b3b224e6f73191
-SHA1: 9b65add9cf5d7134351fb3c4519916bc4729a2ca
-SHA256: 8976fdf795431e186b18ea4331bb3e2f29690742e78753510f39393080bae1ab
+Size: 18916
+MD5sum: c782d68e7950d25bf1a0174721dd63f3
+SHA1: 266c1d4d23e712d75f4279b8abcdbcc4e0f325e4
+SHA256: e0a332477e18b86730704c4fbffa2ed8890e0299f2e7731daba55eba8eb5d726
 Section: Utilities
 Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal. For rooted & rootless jailbreaks.
 Author: Sudo & Paisseon

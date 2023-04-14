@@ -18,17 +18,17 @@ Name: AutoTouch Convert CC Module
 Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
 
 Package: com.sudo.debra
-Version: 2.7.5
-Architecture: iphoneos-arm
+Version: 2.7.6
+Architecture: all
 Maintainer: Sudo
-Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), com.sudo.termcolors (>= 2.0.8)
-Filename: debs/com.sudo.debra_2.7.5_iphoneos-arm.deb
-Size: 16008
-MD5sum: fba256f0792c0c531246498150a3d4f4
-SHA1: 002e2e7cdbe42eb2cbf707d277d2e7f691dfece8
-SHA256: 5b9bcd4b132a2e0d72807db869e3db2876b3b3e01d2764ee50ee7d0e22eccc69
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.7.6_all.deb
+Size: 18910
+MD5sum: bff7741edcf98209afb4164fbef17c0b
+SHA1: 6f4b775d4f6f3968eeaaea4504112bb3ed4cf63d
+SHA256: 4be9dfcb3fe1b5949cd8a9ae074e505678864f51c0b9e301bc44b58aa7638f3f
 Section: Utilities
-Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal. For rooted & rootless jailbreaks.
 Author: Sudo & Paisseon
 Depiction: https://sudo9000.github.io/depictions/debra/index.html
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png

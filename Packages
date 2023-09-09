@@ -18,15 +18,15 @@ Name: AutoTouch Convert CC Module
 Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
 
 Package: com.sudo.debra
-Version: 2.8.4
+Version: 2.8.5
 Architecture: all
 Maintainer: Sudo
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/com.sudo.debra_2.8.4_all.deb
-Size: 19686
-MD5sum: 5b0eeab30ae13a68ad5f90665dfe45cb
-SHA1: 37772f15a5e153f9dc14e3298594b96278054793
-SHA256: 1f282a0808ced358f65802ffac62921e443cce91ef64e0dcc56db2ea98311ffd
+Filename: debs/com.sudo.debra_2.8.5_all.deb
+Size: 19702
+MD5sum: 7956a6c624606fc434e66dee2afeaa08
+SHA1: b5999d172634f3263f7176fc6c5c218e2b517352
+SHA256: 9ba795448a49b6907d08c914ec684d9d51ff72022f66e93a60cb144e133c255b
 Section: Utilities
 Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal. For rooted & rootless jailbreaks.
 Author: Sudo & Paisseon

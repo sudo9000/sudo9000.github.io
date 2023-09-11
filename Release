@@ -3,16 +3,16 @@ Label: Sudo's Repo
 Suite: stable
 Version: 1.0
 Codename: Sudo
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: A place for iOS Jailbreak Tweaks.
 MD5Sum:
  e3ee7d8a7395ff35bc7d5c1e7140d9da 4702 Packages
  e39bc3abb8c976880182318ef903acbb 1983 Packages.bz2
- 07e8bb82122c721cf0ec595ade48546d 1896 Packages.gz
+ 1b8465e84e1b84bb5d5e12981028d609 1896 Packages.gz
  454bb3bdfe8cfb8d975a44d1a2a06c5e 1877 Packages.zst
 SHA256:
  c4ea34de968a47727f251a59cbf2d0aca05a10d4781080d07b3168eb00cbb9ab 4702 Packages
  590588d8a7f41110298bd230409f69025d79ca826099d88ab9900c1f383a3df1 1983 Packages.bz2
- 9572582d85c25b8cf65b03053762c7b00d370733c090136aeb7fbb2bb641aa41 1896 Packages.gz
+ 7aef1158a56799bc0876df559ef23812ae72a87bc7dfc49ea2a51c8fde855aaa 1896 Packages.gz
  69c34f450fee45ef92e07c45ed99956b39f307d78d63a75b7920db5d0abd9441 1877 Packages.zst

@@ -88,15 +88,15 @@ Name: NoAds4YahooMail
 Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
 
 Package: com.sudo.termcolors
-Version: 2.1.1
+Version: 2.1.2
 Architecture: all
 Maintainer: Sudo
 Depends: mobilesubstrate
-Filename: debs/com.sudo.termcolors_2.1.1_all.deb
-Size: 2083112
-MD5sum: 9337ba24c2a8f876c28665c3b264829f
-SHA1: 1170a26093cdd12fb2e15007f19d635af23d89d3
-SHA256: 7342692ef0e7946da63e663b028aa82becec7dfaf7607e468f717099ca0158b1
+Filename: debs/com.sudo.termcolors_2.1.2_all.deb
+Size: 2083960
+MD5sum: 1d8c98669ec16f583d86d1c8f9c0b502
+SHA1: 6e945651766ab50a9899ddb22568ce4115299a82
+SHA256: ebab2600c4bc628cf94fdd5a9ed061f1b8ae34df172c8cd254a165e1e4b94de4
 Section: Utilities
 Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 and Dopamine/rootless support. Temporary 'sudo' and 'su' fix for Xina using 'toor' command.
 Author: Sudo & Paisseon

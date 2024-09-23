@@ -18,18 +18,35 @@ Name: AutoTouch Convert CC Module
 Sileodepiction: https://sudo9000.github.io/info/autotouchcnvrt.json
 
 Package: com.sudo.debra
-Version: 2.8.5
-Architecture: all
+Version: 2.9.9
+Architecture: iphoneos-arm64
 Maintainer: Sudo
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/com.sudo.debra_2.8.5_all.deb
-Size: 19702
-MD5sum: 7956a6c624606fc434e66dee2afeaa08
-SHA1: b5999d172634f3263f7176fc6c5c218e2b517352
-SHA256: 9ba795448a49b6907d08c914ec684d9d51ff72022f66e93a60cb144e133c255b
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm64.deb
+Size: 24316
+MD5sum: b97e9db16f43f66b17e72a2707277616
+SHA1: a10cb219666b4591c2e14e531495ebdd8db84a9f
+SHA256: 9d8dd39bab8f3e336b7fd3cc73ac6c2dd5a3b38c2f136b6cee6dd0e31cfb7d23
 Section: Utilities
-Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal. For rooted & rootless jailbreaks.
-Author: Sudo & Paisseon
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/debra/index.html
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+Name: Debra
+
+Package: com.sudo.debra
+Version: 2.9.9
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), gzip, sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.sudo.debra_2.9.9_iphoneos-arm.deb
+Size: 22784
+MD5sum: ecbf5208b0a15997c21d012281348efe
+SHA1: 938b05aea4d6459b48662c45e1cb6dd81fa0f8d1
+SHA256: b3b491b268abe2bd88f0a18013486b5d66458e1900fa6439ad6cb585b6f06c78
+Section: Utilities
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Author: Sudo
 Depiction: https://sudo9000.github.io/depictions/debra/index.html
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
 Name: Debra
@@ -88,18 +105,35 @@ Name: NoAds4YahooMail
 Sileodepiction: https://sudo9000.github.io/info/noads4yahoomail.json
 
 Package: com.sudo.termcolors
-Version: 2.1.2
-Architecture: all
+Version: 2.2.2
+Architecture: iphoneos-arm64
 Maintainer: Sudo
 Depends: mobilesubstrate
-Filename: debs/com.sudo.termcolors_2.1.2_all.deb
-Size: 2083960
-MD5sum: 1d8c98669ec16f583d86d1c8f9c0b502
-SHA1: 6e945651766ab50a9899ddb22568ce4115299a82
-SHA256: ebab2600c4bc628cf94fdd5a9ed061f1b8ae34df172c8cd254a165e1e4b94de4
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm64.deb
+Size: 2078420
+MD5sum: df90284b48b753d2b401d260e61731a6
+SHA1: 47261f65f338fb9bfac9d27bd0543d375298ed47
+SHA256: c06f391f78968446b674eb22149d2a04c79f7d577218c345345abb1eb814009f
 Section: Utilities
-Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal. XinaA15 and Dopamine/rootless support. Temporary 'sudo' and 'su' fix for Xina using 'toor' command.
-Author: Sudo & Paisseon
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
+Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
+Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
+Name: Term Colors
+
+Package: com.sudo.termcolors
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: Sudo
+Depends: mobilesubstrate
+Filename: debs/com.sudo.termcolors_2.2.2_iphoneos-arm.deb
+Size: 2708318
+MD5sum: 911e71307b80e312ea42e26df933f9e2
+SHA1: 32ba4c63f0d1fe6f5792e188ef121fd41194aee7
+SHA256: c33d9e0e3036252ab1831c53384823eab992227eef1e181a0f3ba8d92c510ac2
+Section: Utilities
+Description: Bash and Zsh setup with colorized prompt, text, dircolors, cat (bat) syntax highlighting and nano colors. Random color prompt generator by typing 'random' in your terminal.
+Author: Sudo
 Depiction: https://sudo9000.github.io/depictions/termcolors/index.html
 Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
 Name: Term Colors
